@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background: whitesmoke;
+    font-size: large;
+}
+.topnav {
+    display: flex;
+    background: white;
+    justify-content: space-evenly;
+    min-height: 55px ;
+    width: 100%;
+    padding-top: 2%;
+    
+}
+.navbar {
+    justify-content: space-between;
+    padding-right: 6%;
+}
+a:hover{
+    color: black;
+    transition: 0.3s all ease;
+    
+}
+a {
+    
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bold;
+}
+.wwa {
+   background-image: image();
+}
+
+
+/*Display Vission,Mission and Values side by side*/
+.vmo{
+    display: flex;
+    justify-content: space-evenly;
+    background: whitesmoke;
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+.footer {
+    background: rgb(78, 48, 9);
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
