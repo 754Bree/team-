@@ -52,11 +52,15 @@ a {
 }
 
 .card1 {
-    background-image: url();
+    background-image: url(https://github.com/754Bree/team-/blob/Main/assets/vmo/Vision.jpg?raw=true);
 }
 
 .card2 {
-    background-image: url();
+    background-image: url(https://github.com/754Bree/team-/blob/Main/assets/vmo/Mision.jpg?raw=true);
+}
+
+.card3 {
+    background-image: url(https://github.com/754Bree/team-/blob/Main/assets/vmo/Values.jpg?raw=true);
 }
 
 .sub-footer {
