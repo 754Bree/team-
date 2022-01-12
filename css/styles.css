@@ -47,8 +47,9 @@ a {
 .card1,
 .card2,
 .card3 {
-    height: 70px;
-    width: 180px;
+    height: 200px;
+    width: 300px;
+    position: center;
 }
 
 .card1 {
