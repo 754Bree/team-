@@ -55,6 +55,10 @@ a {
     background-image: url();
 }
 
+.card2 {
+    background-image: url();
+}
+
 .sub-footer {
     display: flex;
     justify-content: space-evenly;
