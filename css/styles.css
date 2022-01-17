@@ -68,6 +68,17 @@ header{
   background-color: whitesmoke;
   color: grey;
 }
+#wwa h2{
+  font-weight: bolder;
+}
+#wwa p{
+  font-size: large;
+}
+#wwa {
+
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
 .vmo{
   display: flex;
   justify-content: space-evenly;
@@ -75,12 +86,19 @@ header{
   padding-bottom: 3%;
 }
 
-.sub-footer{
+#sub-footer{
+  font-size: large;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+#sub-footer h3 {
+  font-weight: bolder ;
 }
 #footer {
   font-size: larger;
+  font-weight: bolder;
   padding-top:3% ;
   padding-bottom: 2%;
   background-color: black;
