@@ -38,3 +38,17 @@ body{
   top: 200px;
   background-color: #555 /* Light Black */
 }
+.container-fluid {
+  background-color: whitesmoke;
+  color: grey;
+}
+.vmo{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+.sub-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
