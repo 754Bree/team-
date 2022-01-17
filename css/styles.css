@@ -1,77 +1,40 @@
-body {
+body{
     text-align: center;
-    background: whitesmoke;
-    font-size: large;
+}
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
-.topnav {
-    display: flex;
-    background: white;
-    justify-content: space-evenly;
-    min-height: 55px;
-    width: 100%;
-    padding-top: 2%;
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-.navbar {
-    justify-content: space-between;
-    padding-right: 6%;
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #04AA6D;
 }
 
-a:hover {
-    color: black;
-    transition: 0.3s all ease;
+#blog {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
 }
 
-a {
-    text-decoration: none;
-    color: goldenrod;
-    font-weight: bold;
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
 }
 
-.wwa {
-    padding-top: 5%;
-}
-
-
-/*Display Vission,Mission and Values side by side*/
-
-.vmo {
-    padding-top: 2%;
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: space-evenly;
-    background: whitesmoke;
-}
-
-.card1,
-.card2,
-.card3 {
-    height: 200px;
-    width: 300px;
-    position: center;
-}
-
-.card1 {
-}
-
-.card2 {
-}
-
-.card3 {
-}
-
-.sub-footer {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 2%;
-    padding-top: 3%;
-}
-
-.footer {
-    background: rgb(78, 48, 9);
-    height: 100%;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
 }
