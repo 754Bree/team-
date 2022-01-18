@@ -1,3 +1,35 @@
 body{
  text-align: center;   
 }
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+  }
+  /*nav links*/
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    color: orange;
+    background-color: black;
+    font-size: larger;
+    font-weight: bold;
+  }
+  #navbar
+  .content {
+    padding:16px;
+  }
+  /*sticky clas added to navbar*/
+  .sticky {
+    position: fixed;
+    top: o;
+    width: 100%;
+  }
+  .sticky +.content {
+    padding-top: 60px;
+  }

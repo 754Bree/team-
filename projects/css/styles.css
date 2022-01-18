@@ -1,40 +1,35 @@
 body {
     text-align: center;
 }
-/* Style the links inside the sidenav */
-#mySidenav a {
-  position: absolute; /* Position them relative to the browser window */
-  left: -80px; /* Position them outside of the screen */
-  transition: 0.3s; /* Add transition on hover */
-  padding: 15px; /* 15px padding */
-  width: 100px; /* Set a specific width */
-  text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
-  color: white; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+#navbar{
+  overflow: hidden;
+  background-color: #333;
 }
-
-#mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
+/*nav links*/
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
-
-/* The about link: 20px from the top with a green background */
-#about {
-  top: 20px;
-  background-color: #04AA6D;
+#navbar a:hover {
+  color: orange;
+  background-color: black;
+  font-size: larger;
+  font-weight: bold;
 }
-
-#blog {
-  top: 80px;
-  background-color: #2196F3; /* Blue */
+#navbar
+.content {
+  padding:16px;
 }
-
-#projects {
-  top: 140px;
-  background-color: #f44336; /* Red */
+/*sticky clas added to navbar*/
+.sticky {
+  position: fixed;
+  top: o;
+  width: 100%;
 }
-
-#contact {
-  top: 200px;
-  background-color: #555 /* Light Black */
+.sticky +.content {
+  padding-top: 60px;
 }
