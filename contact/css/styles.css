@@ -46,6 +46,13 @@ header{
   .form-group{
     display: grid;
   }
+
+  #but:hover{
+    font-weight: bolder;
+    color: orange;
+    background-color: rgba(50, 50, 92, 0.747);
+  }
+
   #sub-footer a:hover{
     color: orange;
   }

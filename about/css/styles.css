@@ -33,6 +33,7 @@ body{
 .sticky +.content {
   padding-top: 60px;
 }
+
 #text {
   font-weight: bold;
   font-size: larger;
@@ -44,7 +45,7 @@ body{
   background-repeat: no-repeat;
   background-position-y: center ;
   background-position-x:right ;
-  background-color: #333;
+  background-image:url(https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
 }
 .members{
     display: flex;
