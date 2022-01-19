@@ -33,3 +33,37 @@ body {
 .sticky +.content {
   padding-top: 60px;
 }
+header{
+  
+  height: 400px;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1553&q=80);
+}
+.title{
+  color: orange;
+  padding-top: 10%;
+}
+.title:hover{
+  color: blue;
+}
+#sub-footer a:hover{
+  color: orange;
+}
+#sub-footer{
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+#sub-footer h3 {
+  font-weight: bolder ;
+}
+#footer {
+  font-size: larger;
+  font-weight: bolder;
+  padding-top:3% ;
+  padding-bottom: 2%;
+  background-color: black;
+  color: gray;
+}

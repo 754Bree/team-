@@ -1,6 +1,13 @@
 body{
  text-align: center;   
 }
+header{
+  height :450px;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
 #navbar{
     overflow: hidden;
     background-color: #333;
@@ -32,4 +39,31 @@ body{
   }
   .sticky +.content {
     padding-top: 60px;
+  }
+  #form{
+   display: grid;
+  }
+  .form-group{
+    display: grid;
+  }
+  #sub-footer a:hover{
+    color: orange;
+  }
+  #sub-footer{
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  #sub-footer h3 {
+    font-weight: bolder ;
+  }
+  #footer {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top:3% ;
+    padding-bottom: 2%;
+    background-color: black;
+    color: gray;
   }

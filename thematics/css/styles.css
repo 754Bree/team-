@@ -33,11 +33,19 @@ body {
 .sticky +.content {
   padding-top: 60px;
 }
+.intro{
+  padding-top: 4%;
+}
 .container-fluid{
+  padding-top: 5%;
+  padding-bottom: 3%;
   display: block;
   justify-content: space-around;
- 
-
+}
+.thematics{
+  display: block;
+  grid: row gap 20px;
+  padding-top: 4%;
 }
 #row{
   justify-content:space-around ;
