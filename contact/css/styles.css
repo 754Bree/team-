@@ -41,7 +41,7 @@ header{
     padding-top: 60px;
   }
   #form{
-   display: grid;
+    display: grid;
   }
   .form-group{
     display: grid;
@@ -50,7 +50,6 @@ header{
   #but:hover{
     font-weight: bolder;
     color: orange;
-    background-color: rgba(50, 50, 92, 0.747);
   }
 
   #sub-footer a:hover{

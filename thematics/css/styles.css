@@ -48,6 +48,12 @@ body {
   padding-top: 4%;
 }
 #row{
+  
+}
+.areas {
+  margin: 0.5em;
+}
+#row{
   justify-content:space-around ;
   background-color: whitesmoke;
  
