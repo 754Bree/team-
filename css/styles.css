@@ -4,21 +4,32 @@ body{
   
 }
 #navbar{
-  overflow: hidden;
-  background-color: #333;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 90px; 
+  box-sizing: border-box; 
+  
+ 
+}
+#navbar .logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  
 }
 /*nav links*/
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:rgb(19, 18, 18);
+  text-transform: uppercase;
+  font-weight: bolder;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 #navbar a:hover {
   color: orange;
-  background-color: black;
   font-size: larger;
   font-weight: bold;
 }
